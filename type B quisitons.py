@@ -35,3 +35,76 @@ x='hello'*3
 print(x,y)
 
 #(B)
+x='hello'+\
+'to python'+\
+'world'
+for char in x:
+    y=char
+    print(y,':',end='')
+    
+
+#(C)
+x='hello world'
+print(x[:2],x[-2:],x[-2:])
+print(x[6],x[2:4])
+print(x[2:-3],x[-4:-2])
+
+
+
+
+
+#Q3
+theStr='this is a test'
+inputstr=input('enter integer:')
+inputint=int(inputstr)
+testStr=theStr
+while inputint>=0:
+    testStr=testStr[1:-1]
+    inputint=inputint -1
+testbool='t'in testStr
+print(theStr)
+print(testStr)
+print(inputint)
+print(testbool)
+#4
+teststr+'abcdefghi'
+inputstr=input('enter a intger')
+inputint=int(inputstr)
+count=2
+newstr=''
+while count <=inputint:
+    newstr=newstr+teststr[0 :count]
+    teststr=teststr[2:0]
+    count=count+1
+print(newstr)
+print(teststr)
+print(count)
+print(inputint)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
